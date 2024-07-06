@@ -44,7 +44,14 @@ This content-based recommendation system can be valuable for Netflix by personal
 
 **9. Obstacles Encountered**
 
-One challenge involved handling missing values within the dataset. In this case, rows with missing values in crucial text columns like descriptions or cast were dropped to ensure data quality and avoid introducing noise into the model.
+One challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model'sgeneralizability.
+
+**Solutions Implemented**
+
+To address this challenge, we explored alternative approaches to handle missing values in the text data:
+
+* **Imputation:**  We considered techniques like mean/median imputation or k-Nearest Neighbors (kNN) imputation to estimate missing values based on similar titles within the dataset. This approach could help retain valuable data points while mitigating the impact of missing information.
+* **Text Augmentation:** Another approach explored was text augmentation, where techniques like synonym replacement or back-translation are used to create synthetic data points that resemble missing entries. This can help enrich the dataset and potentially improve the model's performance.
 
 **Conclusion and Future Work**
 
