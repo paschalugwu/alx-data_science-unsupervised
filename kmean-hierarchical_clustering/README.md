@@ -8,7 +8,7 @@ Customer segmentation is a crucial strategy for businesses to understand their a
 
 2. **Personal Motivation**:
 
-As an aspiring data scientist with a background in biochemistry and bioinformatics, I'm fascinated by the potential of data analysis to unlock insights across diverse industries. This project aligns perfectly with my passion for uncovering hidden patterns and translating them into actionable strategies.  My experience in product management and software engineering further fuels my desire to bridge the gap between data and practical applications.
+As an aspiring data scientist, I'm fascinated by the potential of data analysis to unlock insights across diverse industries. This project aligns perfectly with my passion for uncovering hidden patterns and translating them into actionable strategies.  My experience in product management and software engineering further fuels my desire to bridge the gap between data and practical applications.
 
 **Methodology**
 
