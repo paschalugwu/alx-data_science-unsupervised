@@ -44,20 +44,7 @@ This content-based recommendation system can be valuable for Netflix by personal
 
 **9. Obstacles Encountered**
 
-One significant challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model's generalizability and biasing the results towards titles with complete information.
-
-**Addressing Missing Values:**
-
-To mitigate this challenge, we explored k-Nearest Neighbors (kNN) imputation as a data cleaning technique. kNN imputation estimates missing values based on the values of similar titles within the dataset. Here's how it works:
-
-1. We imported the `KNeighborsImputer` class from scikit-learn.
-2. We created a `KNeighborsImputer` object, specifying the number of neighbors to consider (e.g., `k=5`). This parameter determines how many similar titles will be used to estimate missing information.
-3. We fit the imputer on the text columns with missing values (e.g., `['cast', 'description']`). This step allows the imputer to learn the relationships between different titles within the dataset.
-4. Finally, we used the fitted imputer to transform the data, replacing missing values with estimated values based on similar titles.
-
-This approach leverages the dataset's structure to estimate missing information, retaining valuable data points while minimizing the impact of missing entries. It also avoids introducing potential bias associated with dropping entire rows.
-
-This solution demonstrates a data-driven approach to handling missing values, ensuring a more comprehensive and representative dataset for building the recommendation system.
+One challenge involved handling missing values within the dataset. In this case, rows with missing values in crucial text columns like descriptions or cast were dropped to ensure data quality and avoid introducing noise into the model.
 
 **Conclusion and Future Work**
 
