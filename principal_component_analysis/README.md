@@ -84,7 +84,7 @@ This exploration of PCA has fueled my enthusiasm for data science and its potent
 
 14. **Supporting Documents:**
 
-* Appendix: Code Snippets for PCA Implementation (Python)
+* Appendix: Accompanying notebook contains Code Snippets for PCA Implementation (Python)
 
 15. **References:**
 
