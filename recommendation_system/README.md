@@ -8,7 +8,7 @@ Recommender systems are a cornerstone of various online platforms, influencing u
 
 **2. Personal Motivation**
 
-As an aspiring data scientist with a background in biochemistry and bioinformatics, I'm passionate about harnessing data's power to solve problems and create impactful solutions. Recommender systems particularly intrigue me for their ability to personalize experiences and drive user engagement. This project allowed me to delve into natural language processing (NLP) techniques and explore their application in building intelligent recommendation models. Furthermore, my experience with software engineering empowered me to translate this model into a potentially deployable system.
+As an aspiring data scientist, I'm passionate about harnessing data's power to solve problems and create impactful solutions. Recommender systems particularly intrigue me for their ability to personalize experiences and drive user engagement. This project allowed me to delve into natural language processing (NLP) techniques and explore their application in building intelligent recommendation models. Furthermore, my experience with software engineering empowered me to translate this model into a potentially deployable system.
 
 **Methodology**
 
