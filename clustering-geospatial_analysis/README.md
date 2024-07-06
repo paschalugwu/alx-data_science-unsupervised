@@ -8,7 +8,7 @@ This project delves into the fascinating realm of geospatial analysis, leveragin
 
 **2. Personal Motivation**
 
-My passion for unraveling insights from diverse industries, coupled with my background in biochemistry and bioinformatics, ignited my curiosity for this project. The prospect of using data science to explore global development trends on a geographical scale was immensely appealing. This project aligns perfectly with my career aspirations of becoming a data scientist who can bridge the gap between complex data and clear, actionable insights.
+My passion for unraveling insights from diverse industries, ignited my curiosity for this project. The prospect of using data science to explore global development trends on a geographical scale was immensely appealing. This project aligns perfectly with my career aspirations of becoming a data scientist who can bridge the gap between complex data and clear, actionable insights.
 
 **Methodology**
 
