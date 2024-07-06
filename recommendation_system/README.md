@@ -44,14 +44,20 @@ This content-based recommendation system can be valuable for Netflix by personal
 
 **9. Obstacles Encountered**
 
-One challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model's generalizability.
+One significant challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model's generalizability and biasing the results towards titles with complete information.
 
-**Solutions Implemented**
+**Addressing Missing Values:**
 
-To address this challenge, we explored alternative approaches to handle missing values in the text data:
+To mitigate this challenge, we explored k-Nearest Neighbors (kNN) imputation as a data cleaning technique. kNN imputation estimates missing values based on the values of similar titles within the dataset. Here's how it works:
 
-* **Imputation:**  We considered techniques like mean/median imputation or k-Nearest Neighbors (kNN) imputation to estimate missing values based on similar titles within the dataset. This approach could help retain valuable data points while mitigating the impact of missing information.
-* **Text Augmentation:** Another approach explored was text augmentation, where techniques like synonym replacement or back-translation are used to create synthetic data points that resemble missing entries. This can help enrich the dataset and potentially improve the model's performance.
+1. We imported the `KNeighborsImputer` class from scikit-learn.
+2. We created a `KNeighborsImputer` object, specifying the number of neighbors to consider (e.g., `k=5`). This parameter determines how many similar titles will be used to estimate missing information.
+3. We fit the imputer on the text columns with missing values (e.g., `['cast', 'description']`). This step allows the imputer to learn the relationships between different titles within the dataset.
+4. Finally, we used the fitted imputer to transform the data, replacing missing values with estimated values based on similar titles.
+
+This approach leverages the dataset's structure to estimate missing information, retaining valuable data points while minimizing the impact of missing entries. It also avoids introducing potential bias associated with dropping entire rows.
+
+This solution demonstrates a data-driven approach to handling missing values, ensuring a more comprehensive and representative dataset for building the recommendation system.
 
 **Conclusion and Future Work**
 
