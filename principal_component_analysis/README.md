@@ -1,4 +1,4 @@
-## Comprehensive Report on Principal Component Analysis (PCA) for Handwritten Digit Classification
+## Principal Component Analysis (PCA) for Handwritten Digit Classification
 
 **Introduction**
 
