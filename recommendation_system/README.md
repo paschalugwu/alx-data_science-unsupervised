@@ -44,7 +44,7 @@ This content-based recommendation system can be valuable for Netflix by personal
 
 **9. Obstacles Encountered**
 
-One challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model'sgeneralizability.
+One challenge involved handling missing values within the dataset, particularly in crucial text columns like descriptions or cast. Dropping entire rows with missing entries can lead to data loss, potentially affecting the model's generalizability.
 
 **Solutions Implemented**
 
