@@ -1,4 +1,4 @@
-## Comprehensive Report on Clustering and Geospatial Analysis of Global Development
+## Clustering and Geospatial Analysis of Global Development
 
 **Introduction**
 
