@@ -256,4 +256,4 @@ Working on these projects has significantly enhanced my skills in data analysis,
 
 ### Conclusion
 
-I am enthusiastic about continuing my journey in data science, eager to explore new methodologies and contribute valuable insights across diverse industries. I extend my gratitude to the ExploreAI Academy and Holberton School for their support and guidance throughout these projects. I look forward to leveraging my skills
+I am enthusiastic about continuing my journey in data science, eager to explore new methodologies and contribute valuable insights across diverse industries. I extend my gratitude to the ExploreAI Academy their support and guidance throughout these projects. I look forward to leveraging my newly aquired skills in future real-world projects.
